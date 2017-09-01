@@ -11,62 +11,65 @@ I have used this as a way to determine pps when snmp is not an option.
 Sample output
 
 - NX
-unix time 1504185785 interface po16 newpktsout 194675207921 oldpktsout 194674879413     PPS is 328508
-
 --------------------------------------------------------------------------------
 Port                                 InOctets                      InUcastPkts
 --------------------------------------------------------------------------------
-Po16                            6188482257485                      91726328908
+Po16                            6431139063963                      95304109569
 
 --------------------------------------------------------------------------------
 Port                              InMcastPkts                      InBcastPkts
 --------------------------------------------------------------------------------
-Po16                                    59823                                0
+Po16                                    61977                                0
 
 --------------------------------------------------------------------------------
 Port                                OutOctets                     OutUcastPkts
 --------------------------------------------------------------------------------
-Po16                           20623931924518                     194675576825
+Po16                           21648073098031                     204146719607
 
 --------------------------------------------------------------------------------
 Port                             OutMcastPkts                     OutBcastPkts
 --------------------------------------------------------------------------------
-Po16                                  7972920                              519
+Po16                                  8172105                              519
 
-unix time 1504185786 interface po16 newpktsout 194675576825 oldpktsout 194675207921     PPS is 368904
 
 --------------------------------------------------------------------------------
 Port                                 InOctets                      InUcastPkts
 --------------------------------------------------------------------------------
-Po16                            6188490442957                      91726450731
+Po16                            6431142998751                      95304167940
 
 --------------------------------------------------------------------------------
 Port                              InMcastPkts                      InBcastPkts
 --------------------------------------------------------------------------------
-Po16                                    59823                                0
+Po16                                    61977                                0
 
 --------------------------------------------------------------------------------
 Port                                OutOctets                     OutUcastPkts
 --------------------------------------------------------------------------------
-Po16                           20623972133221                     194675886290
+Po16                           21648082707587                     204146815357
 
 --------------------------------------------------------------------------------
 Port                             OutMcastPkts                     OutBcastPkts
 --------------------------------------------------------------------------------
-Po16                                  7972924                              519
+Po16                                  8172109                              519
 
-unix time 1504185787 interface po16 newpktsout 194675886290 oldpktsout 194675576825     PPS is 309465
+clock clicks (ms) 1504245652042 interface po16 newpktsout 204146815357 oldpktsout 204146719607
+UTC time 06:00:52 and PPS is 78099.51060358892
+...
+clock clicks (ms) 1504245653273 interface po16 newpktsout 204146922675 oldpktsout 204146815357
+UTC time 06:00:53 and PPS is 87179.52883834281
+....
+clock clicks (ms) 1504245654510 interface po16 newpktsout 204147142268 oldpktsout 204146922675
+UTC time 06:00:54 and PPS is 177520.6143896524
+
 
 - IOS
 
-unix time 1504185201 interface po1 newpktsout 3631504 oldpktsout 3626997        PPS is 4507
-unix time 1504185202 interface po1 newpktsout 3636361 oldpktsout 3631504        PPS is 4857
-unix time 1504185203 interface po1 newpktsout 3642704 oldpktsout 3636361        PPS is 6343
-unix time 1504185204 interface po1 newpktsout 3649372 oldpktsout 3642704        PPS is 6668
-unix time 1504185205 interface po1 newpktsout 3658178 oldpktsout 3649372        PPS is 8806
-unix time 1504185206 interface po1 newpktsout 3664711 oldpktsout 3658178        PPS is 6533
-unix time 1504185207 interface po1 newpktsout 3670464 oldpktsout 3664711        PPS is 5753
-unix time 1504185208 interface po1 newpktsout 3675966 oldpktsout 3670464        PPS is 5502
-unix time 1504185209 interface po1 newpktsout 3682190 oldpktsout 3675966        PPS is 6224
+clock clicks (ms) 1006143863 interface po1 newpktsout 778923558 oldpktsout 778875605
+UTC time 06:01:14 and PPS is 23680.4938272
+clock clicks (ms) 1006145906 interface po1 newpktsout 778967642 oldpktsout 778923558
+UTC time 06:01:15 and PPS is 21578.0714635
+clock clicks (ms) 1006147935 interface po1 newpktsout 779016383 oldpktsout 778967642
+UTC time 06:01:16 and PPS is 24022.178413
+
 
 </pre>
